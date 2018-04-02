@@ -1,0 +1,33 @@
+.hero{
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/Bitmap.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay{
+  min-height: 370px;
+  width: 50vw;
+  height: 50vh;
+  background-position: center;
+  background: rgba(0,0,0,.50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @include for-tablet-landscape-down{
+    width: 100vw;
+  }
+}
+
+#logo{
+  height: 162px;
+  width: 162px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}

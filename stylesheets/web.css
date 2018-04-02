@@ -1,0 +1,984 @@
+@import url('href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+/* line 5, ../sass/_body.scss */
+.case-study-body .cd-stretchy-nav ul a {
+  color: #FFF;
+}
+
+/* line 12, ../sass/_body.scss */
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
+/* line 16, ../sass/_body.scss */
+footer {
+  height: 30px;
+  width: 100%;
+  background-color: #C1967C;
+  display: block;
+  align-self: flex-end;
+}
+
+/* line 24, ../sass/_body.scss */
+.statement-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height: 346px;
+  width: 100%;
+  margin-top: 115px;
+  margin-bottom: 115px;
+  margin: 0 auto;
+  max-width: 1210px;
+  padding: 100px 0px;
+  flex-wrap: wrap;
+}
+
+/* line 39, ../sass/_body.scss */
+.me-statement {
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+/* line 44, ../sass/_body.scss */
+.me-paragraph {
+  align-self: flex-end;
+}
+@media (max-width: 900px) {
+  /* line 44, ../sass/_body.scss */
+  .me-paragraph {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+/* line 53, ../sass/_body.scss */
+.galleries {
+  display: flex;
+  flex-direction: column;
+}
+/* line 57, ../sass/_body.scss */
+.galleries a:link, .galleries a:active, .galleries a:hover, .galleries a:visited {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+/* line 65, ../sass/_body.scss */
+.print-gallery {
+  width: 100%;
+  height: 346px;
+  background: url(../img/print-header.png) no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+  /* line 65, ../sass/_body.scss */
+  .print-gallery {
+    background-position: center;
+  }
+}
+
+/* line 79, ../sass/_body.scss */
+.package-gallery {
+  width: 100%;
+  height: 346px;
+  background: url(../img/package-header.png) no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+@media (max-width: 900px) {
+  /* line 79, ../sass/_body.scss */
+  .package-gallery {
+    background-position: center;
+  }
+}
+
+/* line 92, ../sass/_body.scss */
+.brand-gallery {
+  width: 100%;
+  height: 346px;
+  background: url(../img/brand-comm-header.png) no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+@media (max-width: 900px) {
+  /* line 92, ../sass/_body.scss */
+  .brand-gallery {
+    background-position: center;
+  }
+}
+
+/* line 106, ../sass/_body.scss */
+.UX-gallery {
+  width: 100%;
+  height: 346px;
+  background: url(../img/cool-stuff-image.png) no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+@media (max-width: 900px) {
+  /* line 106, ../sass/_body.scss */
+  .UX-gallery {
+    background-position: center;
+  }
+}
+
+/* line 119, ../sass/_body.scss */
+.cool-stuff {
+  background-color: #C1967C;
+  width: 100%;
+  height: 30px;
+}
+
+/* line 125, ../sass/_body.scss */
+.contact {
+  width: 100%;
+  height: 346px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+@media (max-width: 900px) {
+  /* line 125, ../sass/_body.scss */
+  .contact {
+    flex-direction: column;
+  }
+}
+
+/* line 137, ../sass/_body.scss */
+.business {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* line 141, ../sass/_body.scss */
+.business-text {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+@media (max-width: 900px) {
+  /* line 141, ../sass/_body.scss */
+  .business-text {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 28pt;
+  }
+}
+
+/* line 153, ../sass/_body.scss */
+.info-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+@media (max-width: 900px) {
+  /* line 153, ../sass/_body.scss */
+  .info-contact {
+    margin-left: 20px;
+  }
+}
+
+/* line 164, ../sass/_body.scss */
+.gallery-text {
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+@media (max-width: 900px) {
+  /* line 164, ../sass/_body.scss */
+  .gallery-text {
+    font-size: 32pt;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* line 177, ../sass/_body.scss */
+.casestudybutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-top: 75px;
+}
+
+/* line 185, ../sass/_body.scss */
+.cs-header {
+  width: 100%;
+  height: 652px;
+  background: url(../img/cs-header.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width: 900px) {
+  /* line 185, ../sass/_body.scss */
+  .cs-header {
+    background-position: right;
+  }
+}
+@media (max-width: 599px) {
+  /* line 185, ../sass/_body.scss */
+  .cs-header {
+    background-position: cover;
+    height: 50vh;
+  }
+}
+
+/* line 209, ../sass/_body.scss */
+.brand-guidelines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* line 219, ../sass/_body.scss */
+.header-padding {
+  padding-top: 20px;
+}
+
+/* line 223, ../sass/_body.scss */
+.pt2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* line 229, ../sass/_body.scss */
+.logo-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 236, ../sass/_body.scss */
+.typography {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 242, ../sass/_body.scss */
+.spot-colors {
+  display: flex;
+  flex-direction: row;
+  max-height: 93px;
+  align-self: center;
+}
+
+/* line 249, ../sass/_body.scss */
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 16pt;
+  color: #000;
+  text-align: left;
+  display: flex;
+  align-self: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* line 261, ../sass/_body.scss */
+.resume-button {
+  background-color: #000;
+  width: 200px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 12pt;
+  font-family: 'Raleway';
+  font-weight: 600;
+  margin-right: 100px;
+}
+@media (max-width: 900px) {
+  /* line 261, ../sass/_body.scss */
+  .resume-button {
+    margin-right: 0px;
+  }
+}
+
+/* line 280, ../sass/_body.scss */
+#small {
+  max-width: 248px;
+}
+
+/* line 285, ../sass/_body.scss */
+#small-text {
+  max-width: 268px;
+}
+
+/* line 288, ../sass/_body.scss */
+#line {
+  height: 225px;
+  width: 117px;
+  min-width: 117px;
+  align-self: center;
+}
+
+/* line 295, ../sass/_body.scss */
+.line {
+  height: 225px;
+  width: 117px;
+  min-width: 117px;
+  align-self: center;
+}
+@media (max-width: 900px) {
+  /* line 295, ../sass/_body.scss */
+  .line {
+    display: none;
+  }
+}
+
+/* line 305, ../sass/_body.scss */
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 24pt;
+  color: #FFF;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 314, ../sass/_body.scss */
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 32pt;
+  color: #000;
+  text-align: left;
+}
+
+/* line 322, ../sass/_body.scss */
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 64pt;
+  color: #FFF;
+  text-align: left;
+}
+
+/* line 330, ../sass/_body.scss */
+p {
+  font-family: 'Roboto Slab', serif;
+  margin-left: 50px;
+}
+@media (max-width: 900px) {
+  /* line 330, ../sass/_body.scss */
+  p {
+    margin-left: 0px;
+  }
+}
+
+/* line 340, ../sass/_body.scss */
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+/* line 350, ../sass/_body.scss */
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: url(../img/pb-ol-1.png);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+/* line 363, ../sass/_body.scss */
+#pb {
+  background-image: url(../img/pb-ol-2.png);
+}
+
+/* line 367, ../sass/_body.scss */
+#ff {
+  background-image: url(../img/ff-ol.png);
+}
+
+/* line 371, ../sass/_body.scss */
+#sh {
+  background-image: url(../img/sh-2.png);
+}
+
+/* line 375, ../sass/_body.scss */
+#mc {
+  background-image: url(../img/mc-2.png);
+}
+
+/* line 379, ../sass/_body.scss */
+#sr {
+  background-image: url(../img/sr-2.png);
+}
+
+/* line 383, ../sass/_body.scss */
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+/* line 390, ../sass/_body.scss */
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 1, ../sass/_hero.scss */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/Bitmap.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 12, ../sass/_hero.scss */
+.hero-overlay {
+  min-height: 370px;
+  width: 50vw;
+  height: 50vh;
+  background-position: center;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (max-width: 900px) {
+  /* line 12, ../sass/_hero.scss */
+  .hero-overlay {
+    width: 100vw;
+  }
+}
+
+/* line 27, ../sass/_hero.scss */
+#logo {
+  height: 162px;
+  width: 162px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* line 1, ../sass/print-gallery.scss */
+.header {
+  width: 100vw;
+  height: 80px;
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 11, ../sass/print-gallery.scss */
+.small-image {
+  height: 50px;
+  width: 50px;
+  margin-left: 74px;
+  display: flex;
+  justify-content: flex-start;
+}
+@media (max-width: 599px) {
+  /* line 11, ../sass/print-gallery.scss */
+  .small-image {
+    margin-left: 10px;
+  }
+}
+
+/* line 23, ../sass/print-gallery.scss */
+#navigation {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  margin-right: 40px;
+}
+
+/* line 32, ../sass/print-gallery.scss */
+.print-process-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 75px;
+}
+
+/* line 39, ../sass/print-gallery.scss */
+.process-text {
+  font-size: 18pt;
+  margin-left: 104px;
+  display: flex;
+}
+@media (max-width: 900px) {
+  /* line 39, ../sass/print-gallery.scss */
+  .process-text {
+    margin-left: 0px;
+    text-align: center;
+    align-self: center;
+  }
+}
+
+/* line 51, ../sass/print-gallery.scss */
+.gallery-line {
+  height: 2px;
+  width: 90%;
+  display: block;
+  background: #DA856B;
+  border: none;
+}
+
+/* line 59, ../sass/print-gallery.scss */
+#gallery-item-style {
+  width: auto;
+  max-width: 343px;
+  height: auto;
+  max-height: 356px;
+}
+
+/* line 66, ../sass/print-gallery.scss */
+.flexo-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 74, ../sass/print-gallery.scss */
+.process-item {
+  width: 343px;
+  height: 356px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #000;
+}
+
+/* line 84, ../sass/print-gallery.scss */
+.secret-footer {
+  width: 100%;
+  height: 153px;
+}
+
+/* line 4, ../sass/package-gallery.scss */
+.package-gallery-body .cd-stretchy-nav ul a {
+  color: #000;
+}
+
+/* line 13, ../sass/package-gallery.scss */
+.header {
+  width: 100vw;
+  height: 80px;
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 23, ../sass/package-gallery.scss */
+#small-image {
+  height: 50px;
+  width: 50px;
+  margin-left: 74px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* line 31, ../sass/package-gallery.scss */
+#navigation {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  margin-right: 40px;
+}
+
+/* line 42, ../sass/package-gallery.scss */
+.print-process-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 75px;
+}
+
+/* line 49, ../sass/package-gallery.scss */
+.gallery-line {
+  height: 2px;
+  width: 90%;
+  display: block;
+  background: #DA856B;
+}
+
+/* line 58, ../sass/package-gallery.scss */
+.flexo-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* line 65, ../sass/package-gallery.scss */
+.process-item {
+  width: 343px;
+  height: 356px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #000;
+}
+
+/* line 75, ../sass/package-gallery.scss */
+.secret-footer {
+  width: 100%;
+  height: 153px;
+}
+
+/* line 1, ../sass/brand-gallery.scss */
+.case-study-text {
+  height: 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* line 12, ../sass/brand-gallery.scss */
+#brand-comm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 18, ../sass/brand-gallery.scss */
+.branding-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 75px;
+}
+
+/* line 26, ../sass/brand-gallery.scss */
+.brand-text {
+  color: #000;
+}
+@media (max-width: 900px) {
+  /* line 26, ../sass/brand-gallery.scss */
+  .brand-text {
+    margin-left: 20px;
+  }
+}
+
+/* line 33, ../sass/brand-gallery.scss */
+.turned-line {
+  height: 2px;
+  width: 20%;
+  display: flex;
+  background: #DA856B;
+  top: 35px;
+  left: 35px;
+  transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+}
+
+/* line 46, ../sass/brand-gallery.scss */
+.cs-text {
+  display: flex;
+  margin-left: 50px;
+}
+
+/* line 51, ../sass/brand-gallery.scss */
+.branding-guidelines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 59, ../sass/brand-gallery.scss */
+.reverse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+  /* line 59, ../sass/brand-gallery.scss */
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+/* line 70, ../sass/brand-gallery.scss */
+#cs-image {
+  max-width: 100%;
+  min-width: 343px;
+}
+
+/* line 75, ../sass/brand-gallery.scss */
+.font-image {
+  max-width: 585px;
+}
+@media (max-width: 599px) {
+  /* line 75, ../sass/brand-gallery.scss */
+  .font-image {
+    width: 90%;
+  }
+}
+
+/* line 83, ../sass/brand-gallery.scss */
+.color-image {
+  max-width: 508px;
+  max-height: 92px;
+}
+@media (max-width: 599px) {
+  /* line 83, ../sass/brand-gallery.scss */
+  .color-image {
+    width: 90%;
+  }
+}
+
+/* line 1, ../sass/contact.scss */
+.contact-header {
+  width: 100%;
+  height: 652px;
+  background: url(../img/contact-header.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width: 900px) {
+  /* line 1, ../sass/contact.scss */
+  .contact-header {
+    background-position: right;
+  }
+}
+@media (max-width: 599px) {
+  /* line 1, ../sass/contact.scss */
+  .contact-header {
+    background-position: cover;
+    height: 50vh;
+  }
+}
+
+/* line 21, ../sass/contact.scss */
+.contact-containter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+/* line 29, ../sass/contact.scss */
+.contact-statement {
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+
+/* line 36, ../sass/contact.scss */
+.contact-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+}
+
+/* line 43, ../sass/contact.scss */
+* {
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 56, ../sass/contact.scss */
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+
+/* line 64, ../sass/contact.scss */
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+/* line 73, ../sass/contact.scss */
+#contact {
+  background: #EFE6D5;
+  padding: 25px;
+}
+
+/* line 78, ../sass/contact.scss */
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+/* line 85, ../sass/contact.scss */
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 92, ../sass/contact.scss */
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 100, ../sass/contact.scss */
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+/* line 112, ../sass/contact.scss */
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+/* line 123, ../sass/contact.scss */
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+/* line 129, ../sass/contact.scss */
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #000;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* line 140, ../sass/contact.scss */
+#contact button[type="submit"]:hover {
+  background: #C1967C;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 147, ../sass/contact.scss */
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* line 151, ../sass/contact.scss */
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+/* line 157, ../sass/contact.scss */
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+/* line 161, ../sass/contact.scss */
+:-moz-placeholder {
+  color: #888;
+}
+
+/* line 165, ../sass/contact.scss */
+::-moz-placeholder {
+  color: #888;
+}
+
+/* line 169, ../sass/contact.scss */
+:-ms-input-placeholder {
+  color: #888;
+}

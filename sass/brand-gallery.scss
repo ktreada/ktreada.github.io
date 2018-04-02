@@ -1,0 +1,90 @@
+.case-study-text{
+  height: 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  @include for-tablet-landscape-down{
+  }
+}
+
+#brand-comm{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.branding-gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 75px;
+}
+
+.brand-text{
+  color: #000;
+  @include for-tablet-landscape-down{
+    margin-left: 20px;
+  }
+}
+
+.turned-line{
+  height: 2px;
+  width: 20%;
+  display:flex;
+  background: #DA856B;
+  top: 35px;
+left: 35px;
+ transform:rotate(-60deg);
+ -o-transform:rotate(-60deg);
+ -moz-transform:rotate(-60deg);
+ -webkit-transform:rotate(-60deg);
+}
+
+.cs-text{
+  display: flex;
+  margin-left: 50px;
+}
+
+.branding-guidelines{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.reverse{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+
+  @include for-tablet-landscape-down{
+    flex-direction: column-reverse;
+  }
+}
+#cs-image{
+  max-width: 100%;
+  min-width: 343px;
+}
+
+.font-image{
+  max-width: 585px;
+
+  @include for-phone-only{
+    width: 90%;
+  }
+}
+
+.color-image{
+  max-width: 508px;
+  max-height: 92px;
+
+  @include for-phone-only{
+    width: 90%;
+  }
+}

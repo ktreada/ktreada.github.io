@@ -1,0 +1,21 @@
+/* line 1, ../sass/cool-stuff.scss */
+.poster-1 {
+  height: 526px;
+  width: 340px;
+  max-height: 526px;
+  max-width: 340px;
+}
+
+/* line 8, ../sass/cool-stuff.scss */
+.poster-2 {
+  max-height: 445px;
+  max-width: 342px;
+}
+
+/* line 13, ../sass/cool-stuff.scss */
+.image-style {
+  height: 526px;
+  width: 340px;
+  max-height: 526px;
+  max-width: 340px;
+}
